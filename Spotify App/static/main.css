@@ -1,0 +1,216 @@
+.songs-container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "song1 song2 song3"
+    "song4 song5 song6"
+    "song7 song8 song9"
+    "extras extras extras";
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+}
+
+
+.song1 { 
+  grid-area: song1;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art1{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song2 { 
+  grid-area: song2;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art2{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song3 { 
+  grid-area: song3;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art3{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song4 { 
+  grid-area: song4; 
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art4{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song5 { 
+  grid-area: song5; 
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art5{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song6 { 
+  grid-area: song6; 
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art6{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song7 { 
+  grid-area: song7; 
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art7{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song8 { 
+  grid-area: song8; 
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art8{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.song9 { 
+  grid-area: song9; 
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #f9629e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.album-art9{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.extras { 
+  grid-area: extras; 
+  background-color: #f9629e;
+  border-radius: 10px;
+  box-shadow: 0 0 30px aqua;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  color: yellow;
+  margin-top: 25px;
+}
+
+h1{
+  color: black;
+  text-shadow: 2px 2px 7px #f9629e;
+  text-align: center;
+  margin: 20px;
+}
+
+#quote{
+  text-align: center;
+  text-shadow: 2px 2px 5px white;
+}
+
+h3{
+  color: black;
+  text-shadow: 2px 2px 5px yellow;
+  text-align: center;
+}
+
+button{
+  background-color: #f4a0c1;
+  box-shadow: 1px 1px 15px aqua;
+  text-align: center;
+  font-size: large;
+}
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+  background-color: rgb(142, 142, 230);
+  background-image: url('/static/images/eightieswp.jpg');
+  background-repeat: round;
+  background-size: cover;
+}
+ 
+  
+ 
